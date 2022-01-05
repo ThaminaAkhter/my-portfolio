@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.banner{
+    background-image: url(banner-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 300px;
+}
+
+.banner-heading h1{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    
+}
+.banner-heading p{
+    text-align: center;
+    color: cyan;
+}
+.box-btn{
+    text-align: center; 
+    padding-left: 514px;
+   
+}
+.about-area{
+margin-bottom: 100px;
+}
+.about{
+    display: flex;
+    
+}
+.half-width{
+    width:50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 10px -10px 40px rgb(196, 22, 51);
+   }
+   
+   .half-width h1{
+       font-style: italic;
+   }
+   .box-btn{
+      text-decoration: none;
+      background-image: linear-gradient(tomato,purple);
+      padding: 10px 20px;
+      color: white;
+      font-weight: 700;
+
+  } 
+  .career-goal-area{
+      margin-bottom: 300px;
+  }
+  .skill-item, .experience-item{
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    .experience-item img{
+        width: 100%;
+    }
+    .skill-item h2{
+        text-transform: uppercase;
+        color: rgb(255, 0, 119);
+    }
+  .item-design{
+
+    box-shadow: 5px 10px 40px #888888;
+    padding-left: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width:30;
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+    padding-bottom: 10px;
+}
+.skill-area{
+    margin-bottom: 250px;
+}
+.item-design h3{
+    font-style: italic;
+}
+.experience-design{
+
+    box-shadow: 5px 10px 40px #888888;
+    margin-left: 3%;
+    margin-right: 3%;
+    width:40%;
+    padding-bottom: 10px;
+    padding: 20px;
+
+
+}
+.experience-design h2{
+    text-align: center;
+    font-size: 30px;
+    color:  rgb( 255, 0, 119);
+}
